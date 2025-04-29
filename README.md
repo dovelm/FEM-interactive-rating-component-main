@@ -40,9 +40,9 @@ Your users should be able to:
 
 ### Screenshots
 
-![](https://github.com/dovelm/FEM-huddle-landing-page-with-curved-sections-master/blob/main/screenshots/desktop.png)
+![](https://github.com/dovelm/FEM-interactive-rating-component-main/blob/main/screenshots/desktop.png)
 
-![](https://github.com/dovelm/FEM-huddle-landing-page-with-curved-sections-master/blob/main/screenshots/mobile.png)
+![](https://github.com/dovelm/FEM-interactive-rating-component-main/blob/main/screenshots/mobile.PNG)
 
 
 ### Links
@@ -55,14 +55,14 @@ Your users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- Tailwind css
 - Flexbox
-- Mobile-first workflow
--Javascript 
+- Mobile first
+- Javascript 
 
 ### What I learned
 
-I learned to use elements flexbox, semantic html, css3, javascript.
+I learned to use elements flexbox, semantic html, tailwind css, javascript.
 
 ### Useful resources
 
