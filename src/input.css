@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme{
+    --color-primary:hsl(25, 97%, 53%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-light-grey:hsl(217, 12%, 63%);
+    --color-medium-grey:hsl(216, 12%, 54%);
+    --color-very-blue: #19212C;
+    --color-dark-blue:hsl(213, 19%, 18%);
+    --color-very-dark-blue:hsl(216, 12%, 8%);
+    --font-overpass:"Overpass", sans-serif;
+    --radius-5xl:2rem;
+}
+
+@layer components{
+    .circle{
+        @apply bg-dark-blue font-normal hover:bg-primary hover:text-white hover:font-bold w-[50px] h-[50px] p-4 
+        rounded-3xl text-center text-light-grey cursor-pointer;
+    }
+}

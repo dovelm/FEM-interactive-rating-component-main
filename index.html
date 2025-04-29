@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/images/favicon-32x32.png">
+  <link href="./src/output.css" rel="stylesheet">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body class="min-h-screen flex flex-col justify-center items-center bg-very-dark-blue text-white font-overpass">
+<main>
+  <div id= "select" class="flex flex-col justify-center w-[375px] p-6 bg-very-blue rounded-5xl">
+   <div class="bg-dark-blue w-[50px] p-4 mt-3 rounded-3xl">
+    <img class="w-[18px] h-[18px]" src="./src/assets/icon-star.svg" alt="icon star">
+   </div> 
+    <h2 class="text-2xl font-normal mt-7">How did we do?</h2>
+    <p class="text-sm text-light-grey leading-[1.5rem] my-3">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+    <div class="flex flex-row justify-between my-5">
+      <botton class="circle">1</botton>
+      <botton class="circle">2</botton>
+      <botton class="circle">3</botton>
+      <botton class="circle">4</botton>
+      <botton class="circle">5</botton>
+    </div>
+    <div class="flex flex-row justify-center">
+      <button id="submit-btn" class="w-full mt-4 mb-2 py-3 bg-primary hover:bg-white text-white tracking-widest hover:text-primary uppercase rounded-3xl text-base font-bold cursor-pointer">Submit</button>
+    </div>
+
+    
+    
+     
+  </div>
+  <div id="thank-you" class="flex flex-col justify-center items-center w-[375px] p-7 bg-very-blue rounded-5xl hidden">
+    <img class="mt-4" src="./src/assets/illustration-thank-you.svg" alt="image of thank you">
+    <div class="w-50 mt-8 mb-4 px-4 py-2 bg-dark-blue text-white text-center rounded-3xl">
+      <p class="text-primary text-sm">You selected <span id="score" class="tracking-widest"></span> out of 5</p>
+    </div>
+    
+    <h2 class="text-2xl font-normal mt-7">Thank you!</h2>
+    <p class="text-sm text-light-grey text-center leading-[1.5rem] my-3">We appreciate you taking the time to give a  rating. If you ever need more support, don't hesitate to get it touch!</p>
+  </div>
+</main>
+ 
+<footer class="mt-5 mb-3 text-[0.70rem] text-center font-normal">
+  <p>Challenge by <a class="text-primary" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.  
+    Coded by <a class="text-primary" href="https://github.com/dovelm" target="_blank">Dusvy M</a></p>
+</footer>
+<script src="./main.js"> </script>
+</body>
+</html>
