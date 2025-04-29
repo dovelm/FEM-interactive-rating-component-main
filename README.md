@@ -47,7 +47,7 @@ Your users should be able to:
 
 ### Links
 
-[My Solution](https://dovelm.github.io/FEM-nft-preview-card-component-main)
+[My Solution](https://dovelm.github.io/FEM-interactive-rating-component-main/)
 
 
 ## My process
